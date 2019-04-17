@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular8ivycompiler';
+  counter: number = 0;
+
+  onClick(){
+    this.counter++;
+  }
 }
